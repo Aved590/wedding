@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "name": "Test",
+    "attending": "yes",
+    "timestamp": "2025-07-06T16:05:36.750Z"
+  }
+]

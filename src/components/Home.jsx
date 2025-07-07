@@ -29,7 +29,7 @@ function Home() {
     <div className="container mx-auto p-6 text-center">
       <h2 className="text-4xl font-bold text-gray-800 mb-4">We're Getting Married!</h2>
       <p className="text-lg text-gray-600 mb-6">
-        Join us for the wedding of [Your Names] on [Date] at [Venue].
+        Join us for the wedding of Scott & Nicole on August 24, 2025 at Doukenie Winery.
       </p>
       <div className="max-w-md mx-auto bg-white p-6 rounded-lg shadow-md">
         <h3 className="text-2xl font-semibold text-gray-800 mb-4">RSVP</h3>
