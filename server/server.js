@@ -2,6 +2,7 @@ const express = require('express');
 const fs = require('fs').promises;
 const path = require('path');
 const cors = require('cors');
+const port = process.env.PORT || 5000;
 
 const app = express();
 app.use(cors());
@@ -40,4 +41,4 @@ app.get('/api/photos', async (req, res) => {
   }
 });
 
-app.listen(5000, () => console.log('Server running on http://localhost:5000'));
+app.listen(port, () => console.log(`Server running on ${process.env.BACKEND_URL || `http://localhost:${port}`}`));
